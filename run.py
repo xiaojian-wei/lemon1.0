@@ -5,7 +5,7 @@
 # @Time :2021/8/15 22:04
 
 # 完整的接口自动化测试
-from api.common.method import read_case, api_func, write
+from common.method import read_case, api_func, write
 
 
 def execute_func(fileName, sheetName, cloumn):
@@ -47,4 +47,4 @@ def execute_func(fileName, sheetName, cloumn):
 # 注册
 # execute_func('../test_data/testcase_api_wuye.xlsx', 'register', 8)
 # 登录
-execute_func('/api/test_data\\testcase_api_wuye.xlsx', 'login', 8)
+execute_func('C:\\Users\\ASUS\\.jenkins\\workspace\\scb22\\test_data', 'login', 8)
