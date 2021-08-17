@@ -47,4 +47,4 @@ def execute_func(fileName, sheetName, cloumn):
 # 注册
 # execute_func('../test_data/testcase_api_wuye.xlsx', 'register', 8)
 # 登录
-execute_func('C:\\Users\\ASUS\\.jenkins\\workspace\\scb22\\test_data', 'login', 8)
+execute_func('C:\\Users\\ASUS\\.jenkins\\workspace\\scb22\\test_data\\testcase_api_wuye.xlsx', 'login', 8)
